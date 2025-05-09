@@ -84,7 +84,3 @@ This tool is ideal for financial analysts and institutions that need a repeatabl
 ## 📝 License
 
 This project is licensed under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
