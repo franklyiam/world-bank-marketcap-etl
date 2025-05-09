@@ -81,6 +81,25 @@ python etl_pipeline.py
 
 This tool is ideal for financial analysts and institutions that need a repeatable and automated way to retrieve, process, and store market cap data of global banks every financial quarter.
 
+## ✅ Unit Testing
+
+Unit tests are included to validate the ETL pipeline functions such as extraction, transformation, and data loading.
+
+### Run Tests
+
+To execute unit tests:
+
+```bash
+python -m unittest test_etl_pipeline.py
+```
+
+These tests verify:
+- Web scraping returns a non-empty DataFrame
+- Currency conversion columns are correctly added
+- Data is written to CSV and database without issues
+
+Ensure the test file `test_etl_pipeline.py` is located in the same directory as your main ETL script.
+
 ## 📝 License
 
 This project is licensed under the MIT License.
